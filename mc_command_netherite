@@ -1,0 +1,57 @@
+summon falling_block ~ ~.5 ~ {Time:1,BlockState:{Name:redstone_block},Passengers:[
+    {id:armor_stand,Health:0,Passengers:[
+    {id:falling_block,Time:1,BlockState:{Name:activator_rail},Passengers:[
+    {id:command_block_minecart,Command:'gamerule commandBlockOutput false'},
+    
+    {id:command_block_minecart,Command:'/give @p minecraft:netherite_sword{Enchantments:[{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:bane_of_arthropods",lvl:1000s},{id:"minecraft:fire_aspect",lvl:1000s},{id:"minecraft:knockback",lvl:1000s},{id:"minecraft:looting",lvl:10s},{id:"minecraft:sharpness",lvl:1000s},{id:"minecraft:smite",lvl:1000s},{id:"minecraft:sweeping",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:bow{Enchantments:[{id:"minecraft:flame",lvl:1000s},{id:"minecraft:infinity",lvl:50s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:power",lvl:1000s},{id:"minecraft:punch",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:netherite_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:1000s},{id:"minecraft:fortune",lvl:10s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:netherite_axe{Enchantments:[{id:"minecraft:efficiency",lvl:1000s},{id:"minecraft:fortune",lvl:10s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:netherite_shovel{Enchantments:[{id:"minecraft:efficiency",lvl:1000s},{id:"minecraft:fortune",lvl:10s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:trident{Enchantments:[{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:crossbow{Enchantments:[{id:"minecraft:multishot",lvl:1000s},{id:"minecraft:piercing",lvl:1000s},{id:"minecraft:quick_charge",lvl:5s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:enchanted_golden_apple{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 64'},
+    
+    {id:command_block_minecart,Command:'/item replace entity @p armor.head with minecraft:netherite_helmet{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:netherite_chestplate{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/item replace entity @p armor.legs with minecraft:netherite_leggings{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/item replace entity @p armor.feet with minecraft:netherite_boots{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    
+    {id:command_block_minecart,Command:'/item replace entity @p armor.chest with minecraft:elytra{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:shield{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:flint_and_steel{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:fishing_rod{Enchantments:[{id:"minecraft:aqua_affinity",lvl:1000s},{id:"minecraft:blast_protection",lvl:1000s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:projectile_protection",lvl:1000s},{id:"minecraft:protection",lvl:1000s},{id:"minecraft:respiration",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:soul_speed",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:depth_strider",lvl:1000s} ]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:shears{Enchantments:[{id:"minecraft:efficiency",lvl:1000s},{id:"minecraft:fortune",lvl:10s},{id:"minecraft:mending",lvl:1000s},{id:"minecraft:unbreaking",lvl:1000s}]} 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:clock 64'},
+    {id:command_block_minecart,Command:'/give @p minecraft:spyglass 1'},
+    {id:command_block_minecart,Command:'/give @p minecraft:compass 64'},
+    {id:command_block_minecart,Command:'/give @p minecraft:name_tag 64'},
+    {id:command_block_minecart,Command:'/give @p minecraft:arrow 64'},
+    {id:command_block_minecart,Command:'/item replace entity @p weapon.offhand with minecraft:firework_rocket{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;11743532,4312372,14602026,6719955,15790320],FadeColors:[I;11743532,4312372,14602026,6719955,15790320]}],Flight:1}} 64'},
+    {id:command_block_minecart,Command:'/give @p minecraft:firework_rocket{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;11743532,4312372,14602026,6719955,15790320],FadeColors:[I;11743532,4312372,14602026,6719955,15790320]}],Flight:1}} 192'},
+
+    {id:command_block_minecart,Command:'/gamerule keepInventory true'},
+    {id:command_block_minecart,Command:'/gamerule mobGriefing false'},
+    {id:command_block_minecart,Command:'/gamerule doFireTick false'},
+    {id:command_block_minecart,Command:'/gamerule doInsomnia false'},
+    {id:command_block_minecart,Command:'/gamerule drowningDamage false'},
+    {id:command_block_minecart,Command:'/gamerule fallDamage false'},
+    {id:command_block_minecart,Command:'/gamerule fireDamage false'},
+    {id:command_block_minecart,Command:'/gamerule freezeDamage false'},
+	{id:command_block_minecart,Command:'/gamerule doWeatherCycle false'},
+    {id:command_block_minecart,Command:'/gamerule randomTickSpeed 100'},
+
+    {id:command_block_minecart,Command:'/effect give @p minecraft:haste 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:night_vision 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:saturation 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:invisibility 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:luck 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:dolphins_grace 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:conduit_power 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:resistance 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:strength 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:regeneration 1000000 255'},
+    {id:command_block_minecart,Command:'/effect give @p minecraft:fire_resistance 1000000 255'},
+
+    {id:command_block_minecart,Command:'setblock ~ ~1 ~ command_block{auto:1,Command:"fill ~ ~ ~ ~ ~-3 ~ air"}'},
+    {id:command_block_minecart,Command:'kill @e[type=command_block_minecart,distance=..1]'}]}]}]}
